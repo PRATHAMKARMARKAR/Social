@@ -16,7 +16,8 @@ type config struct {
 	addr string
 }
 func (app *application) mount() http.Handler {
-	//import of chi router -> https://github.com/go-chi/chi
+	//import of chi router -> https://github.com/go-chi/chi {Routers}
+	//import of air-verse -> https://github.com/air-verse/air {Hot Reloading}
 	r := chi.NewRouter()
 	r.Use(middleware.Recoverer)
 	r.Use(middleware.RequestID)
