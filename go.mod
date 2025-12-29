@@ -1,4 +1,4 @@
-module github.com/PRATHAMKARMARKAR/social
+module https://github.com/PRATHAMKARMARKAR/Social
 
 go 1.25.4
 
